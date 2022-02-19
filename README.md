@@ -66,6 +66,8 @@ Example payload:
 
 Browse to http://localhost:3003/redoc/ to see the API documentation or download the contract or browse to http://localhost:3003/swagger/ to see the API swagger doc.
 
+Note: Use the sessions endpoint to create a session usign the application slug.
+
 ## Tests
 
 Run:

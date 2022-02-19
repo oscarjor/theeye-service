@@ -1,3 +1,6 @@
-django
-django-rest-framework
+django==3.1
+djangorestframework==3.12.4
 psycopg2>=2.8.6,<2.8.7
+drf-yasg==1.20.0
+celery==4.3
+redis

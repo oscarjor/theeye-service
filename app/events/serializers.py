@@ -37,7 +37,6 @@ class EventSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("timestamp should not be in the future")
 
         validation_key = f"{data['category'].slug} : {data['name']}"
-        print(">>>>>", validation_key)
         if validation_key in VALIDATOR_MAP:
             keys = VALIDATOR_MAP.get(validation_key)
             for key in keys:

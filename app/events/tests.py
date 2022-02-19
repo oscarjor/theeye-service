@@ -59,4 +59,4 @@ class EventsTestCase(TestCase):
             **{'HTTP_AUTHORIZATION': f'Token {str(self.token)}'},
         )
 
-        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertEqual(response.status_code, status.HTTP_202_ACCEPTED)

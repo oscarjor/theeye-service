@@ -47,6 +47,8 @@ Create basic objects, use the superuser user and password:
 
 Browse to http://localhost:3003/swagger/ and click on Authorize type in the token field the following string: Token <<created_token>>, then close (please use the token you created before). Now you will be able to use the api, select the endpoint and click on Tryout and then on Execute.
 
+Note: Use the sessions endpoint to create a session usign the application slug.
+
 Example payload:
 
 ```sh
@@ -65,8 +67,6 @@ Example payload:
 ## API Documentation
 
 Browse to http://localhost:3003/redoc/ to see the API documentation or download the contract or browse to http://localhost:3003/swagger/ to see the API swagger doc.
-
-Note: Use the sessions endpoint to create a session usign the application slug.
 
 ## Tests
 
